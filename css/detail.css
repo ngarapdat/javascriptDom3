@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    height: 150px;
+    background-color: #035f43f5;
+    border: none;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-logo {
+    padding: 30px 90px;
+}
+
+.header-list ul {
+    display: flex;
+    color: aliceblue;
+    font-size: 25px;
+    gap: 40px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+
+
+
+li {
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.title-are-1 {
+    padding-top: 100px;
+}
+
+.title-are-1 h3,
+h2 {
+    color: rgb(1, 158, 80);
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+.title-are-1 p {
+    font-size: 20px;
+}
+
+.deskripsi {
+    padding-left: 200px;
+    margin-right: 600px;
+
+}
+
+.deskripsi h3 {
+    color: rgb(7, 177, 120);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.deskripsi p {
+    font-size: 20px;
+}
+
+.underline {
+    width: 300px;
+    border-bottom: 5px solid rgb(255, 187, 0);
+    border-radius: 3px;
+
+}
+
+a.button-back {
+    background-color: red;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+
+a.button-back svg {
+    margin-right: 10px;
+}
+
+.deskripsi svg {
+
+    fill: rgb(218, 228, 238);
+    transform: rotate(180deg);
+
+
+}
+
+footer {
+    height: 300px;
+    background-color: rgb(18, 61, 61);
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 200px;
+}
+
+.footer-logo img {
+    width: 300px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.svg-logo {
+    fill: aliceblue;
+    padding: 20px 40px;
+    display: flex;
+
+}
+
+.list1 li {
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+.list2 li {
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+.list3 li {
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+span {
+    color: rgb(255, 174, 0);
+    font-size: 20px;
+}
+
+.btn {
+    float: left;
+    padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 10px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+
+    .header-logo {
+        padding: 0;
+        margin-right: auto;
+        margin-left: 20px;
+        width: auto;
+    }
+
+    .header-logo img {
+        width: 60%;
+        height: auto;
+    }
+
+    .header-list ul {
+        display: block;
+        margin: 0;
+
+
+    }
+
+    .header-list li {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 23px;
+    }
+
+    .content {
+        margin-left: 30px;
+    }
+
+    .title-are-1 {
+        padding-top: 10px;
+
+        font-size: 10px;
+    }
+
+    .deskripsi {
+        padding: 0 0;
+        margin: 0;
+        text-align: left;
+        width: auto;
+    }
+
+    .item img {
+        width: 90%;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .footer-logo {
+        flex-direction: row;
+        width: auto;
+        padding-left: 0px;
+    }
+
+    .svg-logo {
+        padding: 0;
+        margin-left: 50px;
+    }
+
+    .footer-logo img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+
+    span {
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        height: auto;
+
+    }
+
+    .deskripsi {
+        text-align: left;
+        padding: 0 0px;
+        margin: 0;
+    }
+
+    .header-logo {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-list ul {
+        padding: 0px;
+        margin: 50px;
+    }
+
+    .content {
+        margin-left: 30px;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 100;
+        width: auto;
+    }
+
+    .footer-logo {
+        margin: 0;
+        padding: 0;
+    }
+
+
+}

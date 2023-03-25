@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+}
+
+.layer {
+
+    background-image: url('../img/Coffe\ Header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+
+}
+
+.header-home {
+    height: 700px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.header-logo-home {
+    float: left;
+    padding: 20px 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.header-list-home li {
+    color: aliceblue;
+    float: right;
+    padding: 30px 25px;
+    font-size: 20px;
+
+}
+
+.isi {
+    color: white;
+    font-weight: bold;
+    padding-top: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main .container-main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.are-we {
+    display: flex;
+    padding-left: 200px;
+    transform: translateY(300px);
+  transition: all 0.5s ease;
+    
+}
+.are-we.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.title-are {
+    padding-left: 200px;
+    margin-top: 100px;
+}
+
+.product {
+    display: flex;
+    padding-top: 100px;
+     padding-left: 200px;
+   
+       transform: translateX(600px);
+  transition: all 0.5s ease;
+    
+      
+}
+.product.show{
+    transform: translateY(0);
+}
+
+.product .gambar2{
+    margin-left: 200px;
+}
+
+.hangout {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 200px;
+    margin-bottom: 100px;
+      transform: translateX(-500px);
+  transition: all 0.5s ease;
+
+}
+.hangout.show{
+     transform: translateX(0);
+}
+.hangout-title {
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.gambar1 {
+    
+    width: 500px;
+    height: 400px;
+    border: 0px none;
+    border-radius: 25px;
+}
+
+.gambar2 {
+    
+    width: 500px;
+    height: 400px;
+    border: 0px none;
+    border-radius: 25px;
+}
+
+.gambar3 {
+   
+    width: 500px;
+    height: 400px;
+    border: 0px none;
+    border-radius: 25px;
+    
+}
+
+.judul {
+    color: rgb(8, 236, 160);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.underline {
+    width: 300px;
+    border-bottom: 5px solid rgb(255, 187, 0);
+    border-radius: 3px;
+
+}
+
+.title-are p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.product-title p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+}
+
+.hangout-title p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 20px 50px;
+   
+
+
+}
+.button-hangout{
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 20px 80px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+    height: 350px;
+    margin: 40px;
+}
+
+.section {
+
+    color: rgb(8, 236, 160);
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section a {
+    color: rgb(233, 163, 12);
+}
+
+.button-kontak {
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 20px 80px;
+    margin-left: 750px;
+
+}
+
+.menu p {
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    height: 300px;
+    background-color: rgb(18, 61, 61);
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 200px;
+}
+
+.footer-logo img {
+    width: 300px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.svg-logo {
+    fill: aliceblue;
+    padding: 20px 40px;
+    display: flex;
+
+}
+
+.list1 li {
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+.list2 li {
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+.list3 li {
+    padding: 10px 20px;
+    color: aliceblue;
+}
+
+span {
+    color: rgb(255, 174, 0);
+    font-size: 20px;
+}
+
+.btn {
+    float: left;
+    padding-bottom: 100px;
+}
+
+
+
+@media only screen and (max-width: 670px) {
+    .layer img {
+        height: 50%;
+        width: 50%;
+    }
+   .header-home.header-list-home{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .header-list-home li {
+        padding-left: 3px;
+        padding-right: 40px;
+    }
+
+    .isi {
+        font-size: 20px;
+    }
+
+    .isi p {
+        font-size: 15px;
+    }
+
+    .main {
+        padding-top: 20px;
+        margin-bottom: 50px;
+        width: auto;
+    }
+   .main.container-main{
+        padding: 0;
+        margin: 0;
+        width: auto;
+    }
+    .are-we {
+       flex-direction: column;
+       padding: 0;
+        margin: 20px 10px;
+    }
+     .are-we .gambar1{
+          margin:20px;
+     }
+    .title-are {
+        padding-left: 10px;
+        margin: 0px;
+        
+    }
+    
+    .product {
+        flex-direction: column;
+        padding: 0;
+        margin: 0px 10px;
+    }
+    .product .gambar2{
+    margin:20px;
+}
+    .product-title {
+       order: 2;
+       padding: 0;
+       margin:0;
+    }
+
+    .hangout {
+        padding: 0px;
+      margin: 30px 10px;
+      flex-direction: column;
+    }
+    .hangout .gambar3{
+        margin:20px;
+    }
+    .hangout-title {
+        padding: 0;
+    }
+
+
+    .gambar1 {
+        height: 300px;
+        width: 300px;
+
+    }
+
+    .gambar2 {
+        order: 1;
+        height: 300px;
+        width: 300px;
+    }
+
+    .gambar3 {
+        height: 300px;
+        width: 300px;
+    }
+
+    .button {
+        width: auto;
+       
+    }
+
+    .underline {
+        width: 200px;
+    }
+
+    .judul {
+
+        font-size: 25px;
+
+    }
+
+    .content {
+        width: auto;
+    }
+
+    .content img {
+        width: 80px;
+        height: 80px;
+        margin: 3%;
+    }
+
+    .section {
+        font-size: 20px;
+    }
+
+    .menu p {
+        font-size: 20px;
+    }
+
+    .button-kontak {
+        margin-left: 60px;
+
+        font-size: 15px;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .footer-logo{
+        flex-direction: row;
+        width: auto;
+        padding-left: 0px;
+    }
+    .svg-logo{
+        padding:0px;
+        margin-left: 50px;
+    }
+    .footer-logo img{
+       width: 200px;
+       height: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+   
+    
+    span{
+        margin-left: -30px;
+    }
+
+
+}

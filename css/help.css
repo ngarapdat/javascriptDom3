@@ -1,0 +1,100 @@
+.help{
+    margin-left: 400px;
+    font-size: 35px;
+    color: #04AA6D;
+}
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid rgba(66, 62, 62, 0.219);
+  border-radius: 10px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 15px 12px 30px;
+  display: inline-block;
+  font-size: 15px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type=submit] {
+  background-color: #aa0404;
+  color: white;
+  padding: 12px 50px;
+  border: none;
+  margin-left: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+ 
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.main-help{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.group-box {
+  border-radius: 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px 20px;
+  width: 700px;
+ margin-left: 400px ;
+ 
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 8px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 8px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 670px) {
+  .col-25, .col-75 {
+    width: 200%;
+   
+  }
+  input[type=submit]{
+    text-align: center;
+    margin-left: 90px;
+    
+    
+  }
+  .main-help{
+    margin-top:30px;
+  }
+  .help{
+    width: auto;
+    margin: 0;
+  }
+  .group-box{
+    margin: 0;
+    width: auto;
+  }
+}
+@media (max-width: 1000px){
+  .help{
+    margin: 0;
+    width: auto;
+  }
+  .group-box{
+    margin: 10px 0;
+    width: auto;
+  }
+}

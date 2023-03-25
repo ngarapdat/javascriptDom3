@@ -1,0 +1,149 @@
+
+.title{
+    text-align: center;
+}
+.title h3{
+    font-weight: bold;
+    color: rgb(3, 155, 104);
+    font-size: 50px;
+}
+.title p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.produk{
+    display: flex;
+    flex-wrap: wrap;
+   padding: 10px 5%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-left: 10px;
+    
+}
+
+.minuman{
+    background-image: url('../img/Coffee\ background.png');
+    border:none;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.minuman h3{
+    color: white;
+    text-align: center;
+}
+.minuman p{
+    text-align: center;
+    color: white;
+}
+.minuman h3,
+.minuman p,
+.minuman img {
+  transition: transform 0.2s ease-in-out; /* Tambahkan transisi untuk efek animasi */
+}
+
+.minuman:hover h3 {
+  transform: translateY(250px); /* Animasikan elemen h3 ketika disorot */
+}
+
+.minuman:hover p {
+  transform: translateY(250px); /* Animasikan elemen p ketika disorot */
+}
+
+.minuman:hover img {
+  transform: translateY(-100px); /* Animasikan elemen gambar ketika disorot */
+}
+
+
+@media (max-width: 670px) {
+   
+  .title h3{
+    font-weight: bold;
+    color: rgb(3, 155, 104);
+    font-size: 30px;
+}
+.title p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+   .produk {
+    
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    width: auto;
+
+  }
+
+  .minuman{
+    padding: 0;
+    margin: 10px 10px;
+    width: 40%;
+    height: auto;
+  }
+  .minuman img{
+    width: 100%;
+    
+  }
+   
+.minuman h3{
+   font-size: 20px;
+}
+.minuman p{
+   font-size: 20px;
+}
+ .minuman h3,
+.minuman p,
+.minuman img {
+  transition: transform 0.2s ease-in-out; /* Tambahkan transisi untuk efek animasi */
+}
+
+.minuman:hover h3 {
+  transform: translateY(100px); /* Animasikan elemen h3 ketika disorot */
+}
+
+.minuman:hover p {
+  transform: translateY(100px); /* Animasikan elemen p ketika disorot */
+}
+
+.minuman:hover img {
+  transform: translateY(-100px); /* Animasikan elemen gambar ketika disorot */
+}
+     
+}
+@media (max-width: 1000px){
+    .produk{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        flex-direction: row;
+    } 
+    .minuman{
+        padding: 0;
+        margin: 10px 10px;
+        width: 40%;
+    }
+    .minuman img{
+        width: 100%;
+    }
+   .minuman h3{
+   font-size: 20px;
+}
+.minuman p{
+   font-size: 20px;
+}
+}
+
+
+
+
+
+
+    
