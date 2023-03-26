@@ -21,6 +21,7 @@
     margin-bottom: 150px;
     margin-left: 10px;
     
+    
 }
 
 .minuman{
@@ -43,7 +44,7 @@
 .minuman h3,
 .minuman p,
 .minuman img {
-  transition: transform 0.2s ease-in-out; /* Tambahkan transisi untuk efek animasi */
+  transition: transform 0.5s ease-in-out; /* Tambahkan transisi untuk efek animasi */
 }
 
 .minuman:hover h3 {
@@ -87,7 +88,9 @@
     margin: 10px 10px;
     width: 40%;
     height: auto;
+   
   }
+ 
   .minuman img{
     width: 100%;
     

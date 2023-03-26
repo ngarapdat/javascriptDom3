@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 
 .layer {
@@ -8,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    margin: 0;
 
 
 }
@@ -27,7 +29,10 @@
 li {
     list-style: none;
 }
-
+li a{
+     text-decoration: none;
+      color: aliceblue;
+}
 .header-list-home li {
     color: aliceblue;
     float: right;
@@ -253,8 +258,9 @@ footer {
 
 .svg-logo {
     fill: aliceblue;
-    padding: 20px 40px;
+    padding: 20px 60px;
     display: flex;
+   
 
 }
 
@@ -278,14 +284,10 @@ span {
     font-size: 20px;
 }
 
-.btn {
-    float: left;
-    padding-bottom: 100px;
-}
 
 
 
-@media only screen and (max-width: 670px) {
+@media(max-width: 768px) {
     .layer img {
         height: 50%;
         width: 50%;
@@ -336,7 +338,9 @@ span {
         flex-direction: column;
         padding: 0;
         margin: 0px 10px;
+        
     }
+   
     .product .gambar2{
     margin:20px;
 }
@@ -415,31 +419,62 @@ span {
         font-size: 15px;
     }
 
-    footer{
+   footer {
         flex-wrap: wrap;
         height: auto;
     }
-    .footer-logo{
+
+    .footer-logo {
         flex-direction: row;
         width: auto;
-        padding-left: 0px;
+        padding:0;
+        margin: 0;
     }
-    .svg-logo{
-        padding:0px;
-        margin-left: 50px;
+
+    .svg-logo {
+        padding: 0;
+        margin-left: 40px;
+        width: 100%;
     }
-    .footer-logo img{
-       width: 200px;
-       height: 50px;
+
+    .footer-logo img {
+        width: 200px;
+        height: 40px;
     }
-    .container{
+
+    .container {
         flex-direction: column;
     }
-   
-    
-    span{
+
+
+    span {
         margin-left: -30px;
     }
 
 
+}
+@media(max-width: 1000px){
+    .layer{
+        padding:0;
+        margin: 0;
+    }
+    .header-home.header-list-home{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .content {
+        margin-left: 30px;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 100;
+        width: auto;
+    }
+
+    .footer-logo {
+        margin: 0;
+        padding: 0;
+    }
 }

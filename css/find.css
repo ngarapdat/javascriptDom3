@@ -1,13 +1,14 @@
 .main-find{
     margin-top: 100px;
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
    
   
 }
 .main-content{
     display: flex;
     margin-left: 200px;
+    flex-direction: column;
    
     
     
@@ -24,9 +25,8 @@
 }
 
 .map{
-    margin-left: 400px;
-   order: 2;
-  
+   margin-left: 300px;
+   margin-top: 100px;
     
 }
 .map img{
@@ -35,11 +35,7 @@
    
     
 }
-.find{
-    margin-left: 200px;
-    
-   
-}
+
 .find h3{
      color: rgb(8, 131, 90);
       font-size: 30px;
@@ -77,24 +73,35 @@
         margin: 0;
         justify-content: center;
      align-items: center;
-     
+      
         
     }
+   .main-content{
+    order: 1;
+   }
+   .box{
+    width: 100%;
+   }
+    .box h2{
+        font-size: 20px;
+    }
+    .box p{
+        font-size: 20px;
+    }
+    
     .find{
-        order: 1;
+       
         margin: 0;
     }
     .map{
-        order: 2;
+      
         margin: 10px 30px;
         
     }
     .map img{
         width: 100%;
     }
-    .alamat{
-        order: 2;
-    }
+   
    
     
 }
