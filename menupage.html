@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/detail.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
 
@@ -18,50 +19,65 @@
             </div>
             <div class="header-list">
                 <ul>
-                     <li><a href="menupage.html">Products</a> </li>
+                    <li><a href="menupage.html">Products</a> </li>
                     <li><a href="findus.html">Store</a> </li>
                     <li><a href="help.html">Contact</a> </li>
-                   
-                   
+
+
                 </ul>
             </div>
         </div>
     </header>
     <div class="main">
-        <div class="title">
-            <h3>Our Coffee Based Products</h3>
-            <p>locallly sourced best ingredients = best coffee</p>
+        <div class="pilihan">
+            <h3>Product</h3>
+            <div class="pilihan-item">
+                <div class="under"></div>
+                <div class="pilihan-menu">
+                    <ul>
+                        <li><a href="?filter=coffe-based">Coffe based</a></li>
+                        <li><a href="?filter=non-coffe">Non coffe</a></li>
+                        <li><a href="?filter=tea-based">Tea Based</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="produk">
-            <div class="minuman">
-                <h3>Aren Latte</h3>
-                <p>Rp 18000.,</p>
-                <img src="img/aren latte.png" alt="">
+        <div class="item">
+            <div class="title">
+                <h3>Our Coffee Based Products</h3>
+                <p>locallly sourced best ingredients = best coffee</p>
             </div>
-            <div class="minuman">
-                 <h3>Cafe Latte</h3>
-                <p>Rp 24000.,</p>
-                <img src="img/cafe latte.png" alt="">
-            </div>
-            <div class="minuman">
-                 <h3>Caramel Latte</h3>
-                <p>Rp 30000.,</p>
-                <img src="img/caramel latte.png" alt="">
-            </div>
-            <div class="minuman">
-                 <h3>Americano</h3>
-                <p>Rp 18000.,</p>
-                <img src="img/americano.png" alt="">
-            </div>
-            <div class="minuman">
-                 <h3>Cappucino</h3>
-                <p>Rp 24000.,</p>
-                <img src="img/cappucino.png" alt="">
-            </div>
-            <div class="minuman">
-                 <h3>Butterscotch</h3>
-                <p>Rp 24000.,</p>
-                <img src="img/butterscotch.png" alt="">
+            <div class="produk">
+                <div class="minuman" id="non-coffe">
+                    <h3>Aren Latte</h3>
+                    <p>Rp 18000.,</p>
+                    <img src="img/aren latte.png" alt="">
+                </div>
+                <div class="minuman" id="non-coffe">
+                    <h3>Cafe Latte</h3>
+                    <p>Rp 24000.,</p>
+                    <img src="img/cafe latte.png" alt="">
+                </div>
+                <div class="minuman" id="non-coffe">
+                    <h3>Caramel Latte</h3>
+                    <p>Rp 30000.,</p>
+                    <img src="img/caramel latte.png" alt="">
+                </div>
+                <div class="minuman" id="coffe-based">
+                    <h3>Americano</h3>
+                    <p>Rp 18000.,</p>
+                    <img src="img/americano.png" alt="">
+                </div>
+                <div class="minuman" id="coffe-based">
+                    <h3>Cappucino</h3>
+                    <p>Rp 24000.,</p>
+                    <img src="img/cappucino.png" alt="">
+                </div>
+                <div class="minuman" id="tea-based">
+                    <h3>Butterscotch</h3>
+                    <p>Rp 24000.,</p>
+                    <img src="img/butterscotch.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -82,25 +98,54 @@
 
         <div class="container">
             <ul class="list1">
-                <li> <span> Products</span></li>
-                <li>Coffee Based</li>
-                <li>Non Coffee</li>
-                <li>Tea Based</li>
+                <div class="list-content">
+                    <div class="question">
+                        <li> <span> Products</span></li>
+                        <li class="arrow"><i class='bx bx-chevron-left'></i></li>
+                    </div>
+                    <div class="body">
+                        <div class="body-menu">
+                            <li>Coffee Based</li>
+                            <li>Non Coffee</li>
+                            <li>Tea Based</li>
+                        </div>
+                    </div>
+                </div>
             </ul>
 
             <ul class="list2">
-                <li><span> Store</span></li>
-                <li>Location</li>
+                <div class="list-content">
+                    <div class="question">
+                        <li> <span> Store</span></li>
+                        <li class="arrow"><i class='bx bx-chevron-left'></i></li>
+                    </div>
+                    <div class="body">
+                        <div class="body-menu">
+                            <li>location</li>
+
+                        </div>
+                    </div>
+                </div>
 
             </ul>
 
             <ul class="list3">
-                <li><span> Contact</span></li>
-                <li>Customer Service</li>
+                <div class="list-content">
+                    <div class="question">
+                        <li> <span> Contact</span></li>
+                        <li class="arrow"><i class='bx bx-chevron-left'></i></li>
+                    </div>
+                    <div class="body">
+                        <div class="body-menu">
+                            <li>Customer Service</li>
+
+                        </div>
+                    </div>
+                </div>
             </ul>
         </div>
-
     </footer>
 </body>
 <script src="main.js"></script>
+
 </html>

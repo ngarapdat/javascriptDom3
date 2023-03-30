@@ -230,7 +230,27 @@ li a{
     text-align: center;
     font-size: 30px;
 }
-
+.list-content{
+    border-bottom: 0.1px solid white;
+    
+}
+.question{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    justify-content: space-between;
+    line-height:0;
+}
+.arrow{
+  font-size: 30px;
+  cursor: pointer;
+}
+.body{
+    max-height: 0;
+    overflow: hidden;
+   
+}
 footer {
     height: 300px;
     background-color: rgb(18, 61, 61);
@@ -444,10 +464,11 @@ span {
 
     .container {
         flex-direction: column;
+        width: 100%;
     }
-
-
+    
     span {
+        color: #fff;
         margin-left: -30px;
     }
 

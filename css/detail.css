@@ -25,8 +25,13 @@
     margin-top: 50px;
 }
 
-
-
+.header-list a.active{
+   border-bottom: 4px solid rgb(255, 174, 0);
+  color: #fff9f9;
+  text-decoration: none;
+  
+ line-height: 10px
+}
 
 li {
     list-style: none;
@@ -130,7 +135,28 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* accordian */
+.list-content{
+    border-bottom: 0.1px solid white;
+    
+}
+.question{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    justify-content: space-between;
+    line-height:0;
+}
+.arrow{
+  font-size: 30px;
+  cursor: pointer;
+}
+.body{
+    max-height: 0;
+    overflow: hidden;
+   
+}
 .svg-logo {
     fill: aliceblue;
     padding: 20px 40px;
@@ -244,10 +270,13 @@ span {
 
     .container {
         flex-direction: column;
+        width: 100%;
     }
-
-
+    
+   
+    
     span {
+        color: #fff;
         margin-left: -30px;
     }
 }
